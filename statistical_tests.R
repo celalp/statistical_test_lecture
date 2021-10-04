@@ -177,7 +177,7 @@ mean(pvals_apply==pvals_loop)
 # multiple testing corrections
 
 # the fraction of "significant" results
-mean(pvals<0.05)
+mean(pvals_loop<0.05)
 
 
 #since the pvals are identical I will be using the loop one
